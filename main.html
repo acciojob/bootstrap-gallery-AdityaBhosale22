@@ -1,88 +1,27 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-
-<body>
-	<div>
-		<h2 class="text-uppercase d-flex justify-content-center">Cards Gallery</h2>
-	</div>
-
-	<div class="container d-flex flex-wrap">
-		<div class="card data-bs-target="#carouselExample"" style="width: 18rem; card-">
-		  <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-			  <h6 class="text-center">Heading Text</h6>
-		    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-				</div>
-		</div>
-		<div class="card" style="width: 18rem; card-">
-		  <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-			  <h6 class="text-center">Heading Text</h6>
-		    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-				</div>
-		</div>
-		<div class="card" style="width: 18rem; card-">
-		  <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-			  <h6 class="text-center">Heading Text</h6>
-		    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-				</div>
-		</div>
-		<div class="card" style="width: 18rem; card-">
-		  <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-			  <h6 class="text-center">Heading Text</h6>
-		    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-				</div>
-		</div>
-		<div class="card" style="width: 18rem; card-">
-		  <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-			  <h6 class="text-center">Heading Text</h6>
-		    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-				</div>
-		</div>
-		<div class="card" style="width: 18rem; card-">
-		  <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-			  <h6 class="text-center">Heading Text</h6>
-		    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-				</div>
-		</div>
-		<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<div>
+  <h2 class="text-uppercase text-center">Cards Gallery</h2>
 </div>
-	</div>
 
-	
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+<div class="container">
+  <div class="row">
 
-</html>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="lightbox">
+          <img src="image1.jpg" class="card-img-top">
+        </div>
+        <div class="card-body">
+          <h6 class="text-center">Heading Text</h6>
+          <p class="text-center">Some text</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- repeat for 6 cards -->
+
+  </div>
+</div>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner"></div>
+</div>
