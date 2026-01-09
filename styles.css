@@ -1,10 +1,12 @@
-.card {
-  transition: transform 0.3s ease; /* Smooth animation */
-  margin:20px;
+h2, h6, p {
+  text-align: center;
 }
 
-.card:hover {
-  transform: scale(1.05); /* Enlarge by 5% on hover */
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06); /* Optional: add a shadow */
-  z-index: 10; /* Optional: ensure the hovered card is above others */
+.card {
+  border-radius: 8px;
+}
+
+.lightbox img {
+  width: 100%;
+  cursor: pointer;
 }
